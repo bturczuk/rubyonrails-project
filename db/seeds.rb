@@ -146,3 +146,71 @@ User.create!(name:  "No Name",
              password:              "noname",
              password_confirmation: "noname")
 
+
+
+Wine.create!(name: "Homage 2012 California Lot 42",
+                description: "Our Homage Cellars 2012 California Lot Number 42 displays a very dark deep red robe. We start with a nose of black currant, beets and pomegranate. Behind these fresh fruit aromas, some earthy and meaty notes emerge along with clove and light oak characters toward the finish. The mouth has a medium attack with the presence of young, developing tannins. The mid-palate is intense with strawberry and blueberry notes. The finish is round and very balanced. As the grilling season is on the way, enjoy this wine paired with roasted chicken, ham, pork or turkey. Soft to semi-soft cheeses like Brie, Goat Cheese, Camembert or Muenster will also pair well with this wine",
+            user_id: "2")
+
+
+Wine.create!(name: "Halcyon 2013 Arneis",
+                description: "Our Halcyon 2013 Mendocino County Arneis has a pale straw-like color and offers intense ripe pear and apple aromas. Some citrus and custard cream aromas are part of this rich nose. The wine carries a fair amount of acidity, which makes it very crisp when enjoyed chilled. This wine has a short to medium attack with a touch of citrus such as grapefruit and lemon. ",
+            user_id: "2")
+
+Wine.create!(name: "Vela 2013 California Zephyr",
+                description: "The nose starts with light spring white flowers like acacia and lilies. Citrus blossom, orange and white peach fragrances settle in after a few seconds.",
+            user_id: "2")
+Wine.create!(name: "Halcyon 2014 Chardonnay",
+                description: "Our Halcyon 2014 Lodi Chardonnay offers light aromatics of citrus such as lemon and grapefruit in the attack. White flower fragrances, like acacia, are part of this delicate nose. Some freshly baked cupcake, meringue and vanilla aromatics are all over the finish. This wine is round with a medium attack and body.",
+            user_id: "2")
+
+Wine.create!(name: "Halcyon 2013 Arneis",
+                description: "Our Halcyon 2013 Mendocino County Arneis has a pale straw-like color and offers intense ripe pear and apple aromas. Some citrus and custard cream aromas are part of this rich nose. ",
+            user_id: "2")
+
+Wine.create!(name: "Deluge 2012 Napa Valley Cabernet Franc",
+                description: "An extended maceration during fermentation and 18 months of ageing in French oak barrels give our 2012 Deluge Cabernet Franc a deep dark robe. The nose displays some maturity with ripe blackberry, red cherry and plum",
+            user_id: "2")
+Wine.create!(name: "Fleur Bleu Seven Petals Blend
+",
+                description: "Our Fleur Bleu California Seven Petals Blend exhibits bright red fruit characters of cherry, cranberry and blackberry. The nose quickly matures to aromas of black pepper, licorice, caramel and roasted nuts. ",
+            user_id: "2")
+Wine.create!(name: "Homage 2013 California Merlot",
+                description: "White pepper, caramel, licorice and toasted oak are finishing this impressive aromatic display. ",
+            user_id: "2")
+Wine.create!(name: "Lumiere De Vie Cabernet Sauvignon",
+                description: "Our Lumière de Vie 2013 California Cabernet Sauvignon has a lot of expression and intensity in the nose and mouth. This easygoing wine displays red cherry, plum and black currant aromas.",
+            user_id: "2")
+Wine.create!(name: "Moderna 2013 Zinfandel",
+                description: "Our Moderna 2013 Lodi Zinfandel reveals some mature red fruit flavors of black currant, strawberry and blackberry aromas in the attack. ",
+            user_id: "2")
+Wine.create!(name: "Vela 2013 California Eos",
+                description: "The Vela 2013 California Eos has a dark purple color and an expressive nose with some strawberry, black cherry and pomegranate flavors in the attack",
+            user_id: "2")
+Wine.create!(name: "Dusk 2013 California Muscat Canelli",
+                description: "Dusk 2013 California Muscat Canelli",
+            user_id: "2")
+Wine.create!(name: "Joy Cellars 2013 Malvasia",
+                description: "This Malvasia has some intense fruit flavors like peach, mango, passion fruit, guava and Meyer lemon. There is a nice kick of acidity and citrus flavors in the attack. ",
+            user_id: "2")
+Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
+                description: "The nose of our Mariana Vineyard 2011 Sauvignon Blanc is very characteristic of sauvignon blanc grapes with a lot of herbaceous and grassy notes. Many layers of white flowers and citrus blossoms are also present to make this wine fresh, bright and zingy.",
+            user_id: "2")
+Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
+                description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
+            user_id: "2")
+
+Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
+                description: "The nose of our Mariana Vineyard 2011 Sauvignon Blanc is very characteristic of sauvignon blanc grapes with a lot of herbaceous and grassy notes. Many layers of white flowers and citrus blossoms are also present to make this wine fresh, bright and zingy.",
+            user_id: "3")
+Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
+                description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
+            user_id: "3")
+
+
+Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
+                description: "The nose of our Mariana Vineyard 2011 Sauvignon Blanc is very characteristic of sauvignon blanc grapes with a lot of herbaceous and grassy notes. Many layers of white flowers and citrus blossoms are also present to make this wine fresh, bright and zingy.",
+            user_id: "7")
+Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
+                description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
+            user_id: "8")

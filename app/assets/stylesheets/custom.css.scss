@@ -1,12 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@mixin box_sizing {
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
-}
-
 body {
   padding-top: 70px;
 }
@@ -15,12 +9,20 @@ section {
   overflow: auto;
 }
 
+.navbar {
+    background-color: #990000;
+}
+.btn {
+    background-color: #993333;
+}
+
 textarea {
   resize: vertical;
 }
 
 .center {
   text-align: center;
+    background-color: #FFCCCC;
 }
 
 .center h1 {
@@ -32,10 +34,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+    color: #993333;
+    font-weight: bold;
+
 }
 
 h2 {
@@ -44,12 +49,13 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #990033;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+    
 }
 
 #logo {
@@ -57,14 +63,16 @@ p {
     margin-left: 10px;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #FFCCCC;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+    
 }
 
+
 #logo:hover {
-  color: red;
+  color: #660000;
   text-decoration: none;
 }
 
@@ -75,15 +83,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
-}
-
-footer a {
-  color: #555;
+  color: #990033;
 }
 
 footer a:hover {
-  color: #222;
+  color: #990033;
 }
 
 footer small {
@@ -100,15 +104,6 @@ footer ul li {
   margin-left: 15px;
 }
 
-/* miscellaneous */
-
-.debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
-}
 
 /* sidebar */
 
@@ -140,10 +135,9 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid;
   width: 100%;
   margin-bottom: 15px;
-  @include box_sizing;
 }
 
 input {
@@ -168,11 +162,61 @@ input {
 /* Users index */
 
 .users {
+    
   list-style: none;
   margin: 0;
   li {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+/* microposts */
+
+.wines {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid;
+      color: yellow;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .name {
+    font-weight: bold;
+    display: block;
+      color: pink;
+    margin-left: 60px;
+  }
+.description {
+        display: block;
+        margin-left: 60px;
+    }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+}
+
+.timestamp {
+    color: #C7C7C7;
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }

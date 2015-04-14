@@ -1,18 +1,33 @@
-<center>
-  <%= link_to image_tag("lifeistooshort.jpg", alt: "wines"),
-            'http://rubyonrails.org/' %>
-  </center>
+
+ <% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="wine_form">
+        <%= render 'shared/wine_form' %>
+      </section>
+    </aside>
+  </div>
+  <div class="wino">
+     <%= link_to image_tag("wino.jpg", alt: "wines") %>
+  </div>
+<% else %>
+
+     <center>
+      <%= link_to image_tag("lifeistooshort.jpg", alt: "wines"),
+                'http://rubyonrails.org/' %>
+      </center>
 
   <div class="center jumbotron">
 
-  <h1>Welcome to the Sample App</h1>
+  <h1>Welcome to our blog!</h1>
 
   <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+If you - like us - love wine, this is the place for you. You can add here a short description of wines, which you recently have been drinking and read descriptions of other users. Let's divide our knowledge about wine!
   </h2>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "Are you new? Sing up!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-
+<% end %>

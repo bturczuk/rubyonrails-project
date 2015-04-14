@@ -7,4 +7,14 @@
       </h1>
     </section>
   </aside>
+   <div class="col-md-8">
+    <% if @user.wines.any? %>
+      <h3>Descriptions of wines (<%= @user.wines.count %>)</h3>
+      <ol class="name">
+        <%= render @wines %>
+      </ol>
+      <ol class="description"></ol>
+      <%= will_paginate @wines %>
+    <% end %>
+  </div>
 </div>

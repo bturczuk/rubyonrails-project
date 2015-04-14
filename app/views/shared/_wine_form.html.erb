@@ -1,0 +1,7 @@
+<%= form_for(@wine) do |f| %>
+  <div class="field">
+    <b>Name of wine: </b><%= f.text_field :name %>
+    <b>Description: </b><%= f.text_area :description, placeholder: "Add description about wine..." %>
+  </div>
+  <%= f.submit "Add", class: "btn btn-primary" %>
+<% end %>

@@ -1,0 +1,9 @@
+<li id="wine-<%= wine.id %>">
+  <span class="user"><%= link_to wine.user.name, wine.user %></span><br/>
+  <b>Name of wine: </b>
+  <span class="name"><%= wine.name %></span><br/>
+  Description: <span class="description"><%= wine.description %></span><br/>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(wine.created_at) %> ago.<br/>
+  </span>
+</li>
