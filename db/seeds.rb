@@ -214,3 +214,36 @@ Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
 Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
                 description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
             user_id: "8")
+
+
+Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
+                description: "The nose of our Mariana Vineyard 2011 Sauvignon Blanc is very characteristic of sauvignon blanc grapes with a lot of herbaceous and grassy notes. Many layers of white flowers and citrus blossoms are also present to make this wine fresh, bright and zingy.",
+            user_id: "3")
+Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
+                description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
+            user_id: "3")
+Wine.create!(name: "Mariana 2011 Paso Robles Sauvignon Blanc",
+                description: "The nose of our Mariana Vineyard 2011 Sauvignon Blanc is very characteristic of sauvignon blanc grapes with a lot of herbaceous and grassy notes. Many layers of white flowers and citrus blossoms are also present to make this wine fresh, bright and zingy.",
+            user_id: "10")
+Wine.create!(name: "Moderna 2013 Sauvignon Blanc",
+                description: "This medium to long bodied wine has a powerful structure with an alcohol content above 14%. The skin contact technique displays a very opulent mouthfeel.  ",
+            user_id: "11")
+
+
+Wine.create!(name: "Halcyon 2013 Arneis",
+                description: "Our Halcyon 2013 Mendocino County Arneis has a pale straw-like color and offers intense ripe pear and apple aromas. Some citrus and custard cream aromas are part of this rich nose. ",
+            user_id: "31")
+
+Wine.create!(name: "Deluge 2012 Napa Valley Cabernet Franc",
+                description: "An extended maceration during fermentation and 18 months of ageing in French oak barrels give our 2012 Deluge Cabernet Franc a deep dark robe. The nose displays some maturity with ripe blackberry, red cherry and plum",
+            user_id: "21")
+Wine.create!(name: "Fleur Bleu Seven Petals Blend
+",
+                description: "Our Fleur Bleu California Seven Petals Blend exhibits bright red fruit characters of cherry, cranberry and blackberry. The nose quickly matures to aromas of black pepper, licorice, caramel and roasted nuts. ",
+            user_id: "3")
+Wine.create!(name: "Homage 2013 California Merlot",
+                description: "White pepper, caramel, licorice and toasted oak are finishing this impressive aromatic display. ",
+            user_id: "14")
+Wine.create!(name: "Lumiere De Vie Cabernet Sauvignon",
+                description: "Our Lumière de Vie 2013 California Cabernet Sauvignon has a lot of expression and intensity in the nose and mouth. This easygoing wine displays red cherry, plum and black currant aromas.",
+            user_id: "34")
